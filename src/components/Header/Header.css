@@ -1,0 +1,41 @@
+.headerMain{
+       justify-content: space-evenly;
+
+}
+
+.box1{
+    padding: 10px;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    height: fit-content;
+}
+a{
+    text-decoration: none;
+}
+
+.brandtv{
+    padding: 20px;
+    place-content: center;
+}
+
+.brand{
+    justify-content: space-around;
+}
+
+.box2{
+    padding: 20px;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    height: fit-content;
+}
+
+.box3{
+    padding: 20px;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    height: fit-content;
+}
+
+.box4{
+    border: 2px solid rgb(14, 11, 12);
+}

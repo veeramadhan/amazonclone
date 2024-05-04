@@ -1,0 +1,127 @@
+.mainNav{
+    background-color: #131A22;
+}
+.imgLogo{
+  margin: 8px 0px 0 5px;
+}
+
+.locationicon {
+    display: flex;
+    color: white;
+}
+.location {
+  display: flex;
+  align-items: self-end;
+}
+
+.locicon{
+    margin: 25px 3px 0 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    width: 40%;
+  }
+
+  .search-filter{
+  padding: 9px;
+  border-radius: 5px 0 0 5px;
+  }
+  
+  .searchbar {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 0 5px  5px 0;
+
+  }
+  
+  .searchbar + img {
+    margin-left: 8px; /* Adjust as needed */
+    background-color: #FEBD69;
+  }
+
+  .flg{
+    color: white;
+    align-items: center;
+  }
+
+  .paraflg{
+margin: 5px;
+  }
+
+.profile{
+  color: white;
+  margin: 10px 0 0 20px;
+}
+
+
+.textp{
+  font-size: 13px !important;
+}
+
+
+.textH5{
+  font-size: 17px !important;
+}
+
+
+.cart{
+  align-items: center;
+  color: white;
+  margin: 0 0 0 35px;
+}
+
+
+.megaMenu{
+  background-color: #131a22d6;
+  height: 40px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  
+}
+
+li{
+  margin-right: 20px;
+}
+
+.megaMenu{
+  padding: 7px
+}
+
+.burgericon{
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.ban{
+  height: 120vh;
+  width: 100%;
+}
+
+
+.btncarousel{
+  /* background-color: black !important; */
+  height: 36% !important;
+  width: 10% !important;
+}
+
+/* .carousel-control-prev-icon {
+  font-size: 32px !important; 
+} */
+
+.carouselMain{
+  position: relative;
+}
+
+
+.headerMain {
+  top: 50%;
+  left: 50%;
+}
