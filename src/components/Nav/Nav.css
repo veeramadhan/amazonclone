@@ -14,6 +14,10 @@
   align-items: self-end;
 }
 
+.test {
+  background: linear-gradient(to top, rgba(115, 219, 235, 0.549) 110%, rgba(115, 219, 235, 0.549) 75%, white 75%);
+  height: 120vh;
+}
 .locicon{
     margin: 25px 3px 0 0;
 }
@@ -101,14 +105,14 @@ li{
 }
 
 .ban{
-  height: 120vh;
+  height: 40vh;
   width: 100%;
 }
 
 
-.btncarousel{
+.btncarousel {
   /* background-color: black !important; */
-  height: 36% !important;
+  height: 12% !important;
   width: 10% !important;
 }
 
@@ -125,5 +129,5 @@ li{
   position: absolute;
   width: 100%;
   left: 50%;
-  transform: translate(-50%,-100%);
+  transform: translate(-50%,-130%);
 }

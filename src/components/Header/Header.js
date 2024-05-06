@@ -11,8 +11,58 @@ import mi1 from "../../Assets/mi1.jpg"
 import mi2 from "../../Assets/mi2.jpg"
 
 
+import banner3 from "../../Assets/banner9.png";
+import banner4 from "../../Assets/banner7.png";
+import banner5 from "../../Assets/banner8.png";
+
+
+
+
 const Header = () => {
   return (
+
+    <>
+    <div className="carouselMain">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner test">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src={banner3} class="d-block ban" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src={banner4} class="d-block ban" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src={banner5}
+                class="d-block ban"
+                data-bs-interval="5000"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev  btncarousel"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next btncarousel"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon btnicon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
          <div className='container '>
           <div className='row headerMain'>
 
@@ -56,30 +106,30 @@ const Header = () => {
             <a href="https://example.com/offers" >See All Offers</a>
             </div>
 
-            <div className='col-lg-4 box3'>
+            <div className='col-lg-3 box3'>
             <h5>Deals on smartphones that suits your budget</h5>
             <div className='d-flex brand'>
                 <div className='brandtv'>
-                  <img src={mi1} height={"180px"} width={"150px"}/>
+                  <img src={mi1} height={"120px"} width={"100px"}/>
                 </div>
 
                 <div className='brandtv'>
-                  <img src={mi2} height={"180px"} width={"150px"}/>
+                  <img src={mi2} height={"120px"} width={"100px"}/>
                 </div>
             </div>
             <br></br>
 
             <div className='d-flex brand'>
                 <div className='brandtv'>
-                  <img src={pro} height={"180px"} width={"150px"}/>
+                  <img src={pro}height={"120px"} width={"100px"}/>
                 </div>
 
                 <div className='brandtv'>
-                  <img src={pro2} height={"180px"} width={"150px"}/>
+                  <img src={pro2} height={"120px"} width={"100px"}/>
                 </div>
             </div>
-              <br></br>
-            <a href="https://example.com/offers" >See All Offers</a>
+              {/* <br></br>
+            <a href="https://example.com/offers" >See All Offers</a> */}
             </div>
 
             {/* <div className='col-lg-3 box3'>
@@ -88,7 +138,11 @@ const Header = () => {
 
           </div>
 
-         </div>
+          </div>
+
+       
+          </>
+         
   )
 }
 

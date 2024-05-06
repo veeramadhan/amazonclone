@@ -1,0 +1,36 @@
+.scrollmain{
+    background-color: #37475a3b;
+    padding: 50px 0px;
+}
+
+
+
+.para {
+    font-size: 14px;
+    margin: 8px 0px 0px 8px;
+    font-weight: 500;
+}
+
+.card1{
+    background-color: white;
+    padding: 10px;
+}
+
+.card2{
+    background-color: white;
+    padding: 10px;
+}
+
+.card3{
+    background-color: white;
+    padding: 7px 6px 0px 9px
+    
+}
+
+.card3 a{
+    margin-top: 37px;
+}
+
+.card4{
+    border: 1px solid black;
+}
