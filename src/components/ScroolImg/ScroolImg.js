@@ -27,8 +27,19 @@ import pro2 from "../../Assets/pro2.jpg"
 import mi1 from "../../Assets/mi1.jpg"
 import mi2 from "../../Assets/mi2.jpg"
 
+import offer from "../../Assets/offer.jpg"
+import laptop from "../../Assets/laptop.jpg"
+
 
 import offerr from "../../Assets/offerr.jpg"
+
+import air1 from "../../Assets/air1.jpeg"
+import air2 from "../../Assets/air2.jpg"
+import air3 from "../../Assets/air3.jpeg"
+import air4 from "../../Assets/air4.jpeg"
+import CardPrice from "../CardPrice/CardPrice";
+
+import Carousel from "../Carousel/Carousel"
 
 
 
@@ -81,6 +92,9 @@ const ScroolImg = () => {
         </ul>
       </div>
 
+      
+      <Carousel/>
+
       <div className="scroolImg2 container-fluid">
         <div className="d-flex">
           <h4>Up to 70% off on | Bestselling smartwatches</h4>{" "}
@@ -127,22 +141,22 @@ const ScroolImg = () => {
         <h5>Great Summer Sale | Brands in focus</h5>
             <div className='d-flex brand'>
                 <div className='brandtv'>
-                  <img src={mi1} height={"120px"} width={"100px"}/>
+                  <img src={air1} height={"120px"} width={"120px"}/>
                 </div>
 
                 <div className='brandtv'>
-                  <img src={mi2} height={"120px"} width={"100px"}/>
+                  <img src={air2} height={"120px"} width={"120px"}/>
                 </div>
             </div>
             <br></br>
 
             <div className='d-flex brand'>
                 <div className='brandtv'>
-                  <img src={pro}height={"120px"} width={"100px"}/>
+                  <img src={air3}height={"120px"} width={"120px"}/>
                 </div>
 
                 <div className='brandtv'>
-                  <img src={pro2} height={"120px"} width={"100px"}/>
+                  <img src={air4} height={"120px"} width={"120px"}/>
                 </div>
             </div>
         </div>
@@ -179,14 +193,16 @@ const ScroolImg = () => {
 
                 <div className='brandtv'>
                   <img src={offerr} height={"280px"} width={"270px"}/>
-                  <a href="https://example.com/offers" >See All Offers</a>
                 </div>
-            
+                <a href="https://example.com/offers" >See All Offers</a> 
         </div>
+        
         </div>
 
         <div className="col-lg-2 card4">
-        <p>veera</p>
+        <img src={offer}  className="offer"/>
+        <img src={laptop}  className="offer"/>
+        <a href="https://example.com/offers">See All Offers</a>
         </div>
       </div>
       </div>

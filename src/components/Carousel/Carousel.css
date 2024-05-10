@@ -1,0 +1,15 @@
+
+/* .card {
+    width: 234px;
+    height: 414px;
+    margin: 10px 0px 0px 10px;
+} */
+
+.CarouselImg {
+    /* border: 2px solid grey; */
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    height: 412px;
+}

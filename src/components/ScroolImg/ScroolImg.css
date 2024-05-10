@@ -1,9 +1,13 @@
 .scrollmain{
     background-color: #37475a3b;
-    padding: 50px 0px;
+    padding: 5px 0px;
 }
 
-
+.offer{
+    margin: 14px 0px;
+    height: 160px;
+    width: 190px;
+}
 
 .para {
     font-size: 14px;
@@ -23,8 +27,9 @@
 
 .card3{
     background-color: white;
-    padding: 7px 6px 0px 9px
-    
+    padding: 7px 6px 0px 9px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card3 a{
@@ -32,5 +37,5 @@
 }
 
 .card4{
-    border: 1px solid black;
+    background-color: white;
 }

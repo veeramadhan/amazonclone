@@ -1,0 +1,78 @@
+.Cardmain{
+    padding: 5px 0px;
+}
+
+.CardImg {
+    /* border: 2px solid grey; */
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    height: 500px;
+}
+
+.carousel-img{
+    width: 234px;
+    height: 414px;
+    /* margin-right: 28px; */
+    margin: 10px 0px 0px 10px;
+}
+
+/* .scroll{
+        overflow: hidden;
+        overflow-x: scroll;
+    
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 76px;
+  height: 109px;
+  background-color: #0b0a0a;
+  margin: 341px 5px -1px 7px;
+  opacity: 0; /* Initially hide the icons */
+  transition: opacity 0.3s; /* Add transition effect for smoother visibility */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  opacity: 1; /* Show icons on hover */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 2rem; /* Adjust this value to your preference */
+  width: 60px; /* Adjust this value to your preference */
+  height: 60px; /* Adjust this value to your preference */
+}
+
+
+.card {
+    margin-right: 10px; /* Adjust this value to your preference */
+  }
+
+.carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    max-height: 560px; 
+        overflow: hidden;
+  }
+
+ 
+
+.ipic{
+    display: flex;
+}
+
+.card-img-top {
+  height: 310px;
+  width: 208px;
+}
