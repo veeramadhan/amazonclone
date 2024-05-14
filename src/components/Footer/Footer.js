@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div className="row footerContent container ">
+        <div className="row footerContent container  ">
           <div className="col-lg-3">
             <h5 className="titlefoot">Get to Know Us</h5>
             <ul>
@@ -198,7 +198,7 @@ const Footer = () => {
 Privacy Notice
 Interest-Based Ads
       </h4>
-      <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+      <p className="pg">© 1996-2024, Amazon.com, Inc. or its affiliates</p>
         </div>
 
       </div>

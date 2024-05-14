@@ -87,7 +87,7 @@ const Nav = () => {
           <li>New Releases</li>
           <li>Home & Kitchen</li>
 
-          <div className="ms-auto">
+          <div className="ms-auto endMenu">
             <h5>
               Great Summer Sale <span>|</span> Shop Now
               <img src={arrow} height="20px" width="25px" />

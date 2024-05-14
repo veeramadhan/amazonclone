@@ -70,6 +70,42 @@ p{
     margin-top: 80px;
 }
 
+
+@media (max-width: 576px) {
+
+.footerContent {
+   display: none;
+}
+
+.footerContent1 {
+    margin-left: 0%;
+    padding-top: 5%;
+}
+
+.footerContent3{
+    margin-left: 0%;
+    padding-top: 5%;
+}
+
+.finalFooter {
+    background-color: #131A22;
+    color: white;
+    height: 907px;
+}
+
+.endtext {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 74px;
+    margin-left: -7px;
+}
+
+.pg{
+    margin-left: -5px;
+}
+
+}
+
 @media only screen and (min-width: 1080px) and (max-width: 1440px) {
 
     .footerContent {

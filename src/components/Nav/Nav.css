@@ -143,10 +143,18 @@ li{
     transform: translate(-47%, -50%);
 }
 
+.endMenu{
+  display: none;
+}
+
 
 .megaMenu {
+  overflow: hidden;
   padding: 8px 10px;
+  overflow-x: scroll;
+  font-size: 17px;
 }
+
 .mainNav {
   background-color: #131A22;
   height: 156px;
