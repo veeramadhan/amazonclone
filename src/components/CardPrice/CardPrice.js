@@ -59,9 +59,9 @@ const CardPrice = () => {
                   <div className="card-body">
                     <h5 className="card-title">Rare Women Casual Knee-Length Dress</h5>
                     <p className="card-text d-flex gap-4">
-                      <span style={{ fontSize:"25px", fontWeight:"600"}}>&#8377;900</span>
+                      <span className="textspan" >&#8377;900</span>
                       <span>
-                        <del style={{color:"red", fontSize:"20px"}}>&#8377;1,799.00</del>
+                        <del  className="textdel" >&#8377;1,799.00</del>
                       </span>
                     </p>
                   </div>

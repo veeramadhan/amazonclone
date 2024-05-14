@@ -37,6 +37,8 @@ const Nav = () => {
           <p className="location">Delivering to Coimbatore 641012</p>
         </div>
 
+        
+
         <div class="search-container">
           <select class="search-filter">
             <option value="all">All</option>
@@ -68,6 +70,7 @@ const Nav = () => {
           <p className="paraflg">Cart</p>
         </div>
       </div>
+      
 
       <div className="megaMenu">
         <ul className="d-flex">

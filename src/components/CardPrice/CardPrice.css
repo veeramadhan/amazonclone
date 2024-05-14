@@ -1,5 +1,7 @@
 .Cardmain{
     padding: 5px 0px;
+    background-color: #37475a3b;
+
 }
 
 .CardImg {
@@ -66,6 +68,14 @@
         overflow: hidden;
   }
 
+  .textspan{
+    font-size: 25px;
+    font-weight: 600;
+  }
+.textdel{
+  color: red;
+  font-size: 20px;
+}
  
 
 .ipic{
@@ -75,4 +85,57 @@
 .card-img-top {
   height: 310px;
   width: 208px;
+}
+
+
+
+
+@media only screen and (min-width: 1080px) and (max-width: 1440px) {
+
+.CardImg {
+  /* border: 2px solid grey; */
+  padding: 20px;
+  width: 90%;
+  margin: 40px auto;
+  background-color: white;
+  height: 343px;
+}
+
+.card-img-top {
+  height: 137px;
+  width: 122px;
+  margin: auto;
+}
+
+.textspan{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.textdel{
+  color: red;
+  font-size: 18px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 76px;
+  height: 109px;
+  background-color: #0b0a0a;
+  margin: 179px 5px -1px 7px;
+  opacity: 0; /* Initially hide the icons */
+  transition: opacity 0.3s; /* Add transition effect for smoother visibility */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  opacity: 1; /* Show icons on hover */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 2rem; /* Adjust this value to your preference */
+  width: 60px; /* Adjust this value to your preference */
+  height: 60px; /* Adjust this value to your preference */
+}
 }

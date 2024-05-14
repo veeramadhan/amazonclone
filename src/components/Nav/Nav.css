@@ -131,3 +131,139 @@ li{
   left: 50%;
   transform: translate(-50%,-130%);
 }
+
+
+
+
+@media (max-width: 576px) {
+  .headerMain {
+    position: absolute;
+    width: 92%;
+    left: 50%;
+    transform: translate(-47%, -50%);
+}
+
+
+.megaMenu {
+  padding: 8px 10px;
+}
+.mainNav {
+  background-color: #131A22;
+  height: 156px;
+}
+
+.imgLogo {
+  margin: 0px 0px 0 -10px;
+}
+
+.locationicon , .flg img ,.profile , .paraflg{
+  display: none;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 58px -118px;
+  width: 39%;
+}
+
+.cart {
+  align-items: center;
+  color: white;
+  margin: -106px 0 0 297px;
+}
+
+.searchbar {
+  flex: 1 1;
+  padding: 8px 94px 8px 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  /* width: 128%; */
+}
+
+.ban {
+  height: 20vh;
+  width: 100%;
+}
+
+
+}
+
+
+  @media (min-width: 577px) and (max-width: 991px) {
+    .headerMain {
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%, -38%);
+  }
+  }
+
+
+
+
+
+/* Styles for 14-inch laptop */
+@media only screen and (min-width: 1080px) and (max-width: 1440px) {
+  .imgLogo {
+    height: 41px;
+    width: 87px;
+}
+
+.location {
+  display: flex;
+  align-items: end;
+  margin-bottom: 21px;
+  font-size: 13px;
+}
+
+.locicon {
+  margin: 20px 2px 0 0;
+}
+
+.textH5 {
+  font-size: 15px !important;
+}
+
+.megaMenu {
+  padding: 7px;
+  font-size: 12px;
+}
+
+.burgericon {
+  margin-right: 15px;
+  margin-top: -1px;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+
+.headerMain {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -115%);
+}
+.img1 {
+  height: 244px;
+  width: 262px;
+}
+
+.brandtv {
+  padding: 7px;
+  place-content: center;
+}
+
+.box1 {
+  padding: 15px 0px 22px 28px;
+  box-shadow: 2px 2px 5px grey;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+}

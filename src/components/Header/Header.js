@@ -67,16 +67,17 @@ const Header = () => {
           <div className='row headerMain'>
 
 
-            <div className='col-lg-3 box1'>
+            <div className='col-lg-3 box1 col-sm-12'>
             <h5>Shop All Deals</h5>
-            <img src={offer} height={"300px"} width={"300px"}/>
+            <div>   <img src={offer} height={"300px"} width={"300px"} className='img1'/></div>
+         
             <a href="https://example.com/offers" >See All Offers</a>
              </div>
 
 
 
 
-            <div className='col-lg-3 box2'>
+            <div className='col-lg-3 box2 col-sm-12'>
             <h5>Deals on accessories for your top smartphone brands</h5>
             <div className='d-flex brand'>
                 <div className='brandtv'>
@@ -106,7 +107,7 @@ const Header = () => {
             <a href="https://example.com/offers" >See All Offers</a>
             </div>
 
-            <div className='col-lg-3 box3'>
+            <div className='col-lg-3 box3 col-sm-12'>
             <h5>Deals on smartphones that suits your budget</h5>
             <div className='d-flex brand'>
                 <div className='brandtv'>

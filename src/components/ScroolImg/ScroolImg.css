@@ -39,3 +39,55 @@
 .card4{
     background-color: white;
 }
+
+@media (max-width: 576px) {
+
+
+.scrollmain {
+    background-color: #37475a3b;
+    padding: 5px 0px;
+    margin-top: 710px;
+}
+
+.scroolImg {
+    /* border: 2px solid grey; */
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    height: 270px;
+}
+
+.producthor {
+    display: flex;
+    /* overflow: hidden; */
+    min-height: 8px;
+    margin-top: 7px;
+    overflow-x: scroll;
+}
+
+.tilescroll{
+    font-size: 17px;
+}
+
+.para {
+    font-size: 11px;
+    margin: 0px -3px 0px -3px;
+    font-weight: 500;
+}
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1440px) {
+
+.brandimg{
+    width: 250px;
+    height: 300px;
+}
+
+.offer {
+    margin: 14px 0px;
+    height: 160px;
+    width: 163px;
+}
+
+}

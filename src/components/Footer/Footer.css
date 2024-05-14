@@ -69,3 +69,46 @@ p{
     font-size: 20px;
     margin-top: 80px;
 }
+
+@media only screen and (min-width: 1080px) and (max-width: 1440px) {
+
+    .footerContent {
+        margin-left: 7%;
+        padding-top: 5%;
+    }
+
+    .footer ul li {
+        font-size: 14px;
+    }
+
+    .titlefoot {
+        font-size: 19px;
+        text-align: start;
+        margin-left: 12%;
+        font-weight: 500;
+    }
+
+
+    .footerContent1 {
+        margin-left: 8%;
+        padding-top: 5%;
+    }
+
+    .footerContent3 {
+        margin-left: 8%;
+        padding-top: 5%;
+    }
+
+    .titlefoot1 {
+        font-size: 14px;
+        text-align: start;
+        margin-left: 8%;
+        font-weight: 500;
+    }
+
+    .footerContent3 {
+        margin-left: 8%;
+        padding-top: 0%;
+    }
+
+}

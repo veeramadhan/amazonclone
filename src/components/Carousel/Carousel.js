@@ -19,7 +19,7 @@ const Carousel = () => {
           </div>
 
           <div className="row">
-            <div className="ipic col-lg-5">
+            <div className="ipic col-lg-5 ">
               <iframe
                 width="660"
                 height="320"
@@ -30,8 +30,8 @@ const Carousel = () => {
             </div>
 
             <div className="d-flex col-lg-7">
-         <ul className="d-flex">
-         <li>
+         <ul className="d-flex primeImg">
+         <li >
             <img src={jai} height={"320px"} width={"230px"} />
           </li>
           <li>

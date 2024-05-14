@@ -47,8 +47,8 @@ const ScroolImg = () => {
   return (
     <div className="scrollmain">
       <div className="scroolImg container-fluid">
-        <div className="d-flex">
-          <h4>Up to 80% off | Deals on mobile accessories</h4>{" "}
+        <div className="d-flex ">
+          <h4 className="tilescroll">Up to 80% off | Deals on mobile accessories</h4>{" "}
           <span>
             <p className="para">
               <a href="">Explore More</a>
@@ -135,9 +135,9 @@ const ScroolImg = () => {
         </ul>
       </div>
 
-      <div className=" container">
+      <div className=" container ">
         <div className="row gap-4">
-        <div className="col-lg-3 card1">
+        <div className="col-lg-3 card1 col-sm-12">
         <h5>Great Summer Sale | Brands in focus</h5>
             <div className='d-flex brand'>
                 <div className='brandtv'>
@@ -163,7 +163,7 @@ const ScroolImg = () => {
 
 
 
-        <div className="col-lg-3 card2">
+        <div className="col-lg-3 card2 col-sm-12">
         <h5>Minimum 50% off | Amazon Brands & more</h5>
             <div className='d-flex brand'>
                 <div className='brandtv'>
@@ -187,12 +187,12 @@ const ScroolImg = () => {
             </div>
         </div>
 
-        <div className="col-lg-3 card3">
+        <div className="col-lg-3 card3 col-sm-12">
         <h5>Up to 70% off | Amazon Renewed</h5>
             <div className=' brand'>
 
                 <div className='brandtv'>
-                  <img src={offerr} height={"280px"} width={"270px"}/>
+                  <img src={offerr} className="brandimg" height={"280px"} width={"270px"}/>
                 </div>
                 <a href="https://example.com/offers" >See All Offers</a> 
         </div>

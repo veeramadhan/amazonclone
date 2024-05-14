@@ -13,3 +13,29 @@
     background-color: white;
     height: 412px;
 }
+
+
+
+
+
+@media only screen and (min-width: 1080px) and (max-width: 1440px) {
+    .CarouselImg {
+        /* border: 2px solid grey; */
+        padding: 15px;
+        width: 90%;
+        margin: 40px auto;
+        background-color: white;
+        height: 345px;
+    }
+
+    .ipic iframe{
+        height: 270px ;
+        width: 450px;
+    }
+
+    .primeImg img {
+        height: 270px !important;
+        width: 189px !important;
+    }
+}
+
