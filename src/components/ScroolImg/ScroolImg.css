@@ -49,6 +49,18 @@
     margin-top: 710px;
 }
 
+.brandimg{
+    width: 320px;
+}
+
+
+.offer {
+    margin: 14px 0px;
+    height: 248px;
+    width: 363px;
+}
+
+
 .scroolImg {
     /* border: 2px solid grey; */
     padding: 20px;

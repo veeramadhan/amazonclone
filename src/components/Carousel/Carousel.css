@@ -15,6 +15,17 @@
 }
 
 
+@media (max-width: 576px) {
+
+    .CarouselImg{
+        display: none;
+    }
+
+    
+    
+}
+
+
 
 
 
